@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FPIEmploy"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutId"
+        android:layout_width="match_parent"
+        android:background="#d1cfcf"
+        android:weightSum="6"
+        android:layout_height="60dp">
+
+        <Button
+            android:id="@+id/HomeBtnId"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/home"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/TheacherBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/employ"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/UserBtnId"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/user"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/NoticeBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/notic"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/JobBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/job"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/PhotosBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/photos"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#1d1b1b"
+        android:layout_height="1dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="360dp"
+                    android:layout_height="280dp"
+                    android:src="@drawable/fpiprincipal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PrincipalFPI"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/FPIbtn1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fafafa"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdPrincipalFPI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdPrincipalFPI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdPrincipalFPI"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="360dp"
+                    android:layout_height="280dp"
+                    android:src="@drawable/emdadulfpi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/EEEFPI"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/FPIbtn2"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fafafa"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdCiFPI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdCiFPI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdCiFPI"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="360dp"
+                    android:layout_height="280dp"
+                    android:src="@drawable/mohammedfpi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CMTFPI"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/FPIbtn3"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fafafa"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdHCSTFPI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdHCSTFPI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdHCSTFPI"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="360dp"
+                    android:layout_height="280dp"
+                    android:src="@drawable/sreenayanfpi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PowerFPI"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/FPIbtn4"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fafafa"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdHDNTFPI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdHDNTFPI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdHDNTFPI"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+
+            </LinearLayout>
+
+    <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="360dp"
+                    android:layout_height="280dp"
+                    android:src="@drawable/abdurfpi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/MTFPI"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/FPIbtn5"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fafafa"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdHTCTFPI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdHTCTFPI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdHTCTFPI"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="360dp"
+                    android:layout_height="280dp"
+                    android:src="@drawable/nasimuzfpi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RSFPI"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/FPIbtn6"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fafafa"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdHTCTFPI6"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdHTCTFPI6"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdHTCTFPI6"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

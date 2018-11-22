@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BTEBHome">
+
+    <LinearLayout
+        android:id="@+id/layoutIdBTEBHome"
+        android:layout_width="match_parent"
+        android:background="#d1cfcf"
+        android:weightSum="6"
+        android:layout_height="60dp">
+
+        <Button
+            android:id="@+id/HomeBtnId"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/home"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/EmployBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/employ"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/UserBtnId"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/user"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/NoticeBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/notic"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/JobBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/job"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/PhotosBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/photos"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#1d1b1b"
+        android:layout_height="1dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/HomeImageId"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="4dp"
+
+                android:background="@drawable/bteb"
+               />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#1d1b1b" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e9e6e6"
+                android:layout_gravity="center_horizontal">
+
+
+                <Button
+                    android:id="@+id/LikeBtnId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/ic_likehome"
+                    />
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="#1d1b1b" />
+
+                <Button
+                    android:id="@+id/FollowBtnId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/follow" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#1d1b1b" />
+
+            <TextView
+                android:id="@+id/TitleTextId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="About BTEB"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="1dp"
+                android:background="#1d1b1b" />
+
+            <TextView
+                android:id="@+id/DescriptionTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="দেশের  কারিগরি ও বৃত্তিমূলক শিক্ষা ও প্রশিক্ষণের সংগঠন পরিচালন, তদারকি, নিয়ন্ত্রণ এবং উন্নয়নের দায়িত্ব পালন, পরীক্ষা পরিচালনা, নিয়ন্ত্রণ ও বোর্ড কর্তৃক গৃহীত পরীক্ষায় উত্তীর্ণ ব্যক্তিবর্গকে ডিপ্লোমা/ সার্টিফিকেট প্রদান।
+ ১৯৬০ সালে কারিগরি শিক্ষার উন্নয়নের জন্য কারিগরি শিক্ষা অধিদপ্তর স্থাপিত হয় এবং পূর্বে গঠিত বোর্ডকে তার আওতায় আনা হয়। কারিগরি শিক্ষা অধিদপ্তর প্রতিষ্ঠার পর ডিগ্রি, ডিপ্লোমা এবং ট্রেড পর্যায়ে কারিগরি শিক্ষার দ্রুত উন্নয়ন ও সম্প্রসারণের কাজ হাতে নেয়া হয়।
+ ক্রমবর্ধমান কর্মতৎপরতার প্রেক্ষিতে এবং ডিপ্লোমা ইন ইঞ্জিনিয়ারিং ও ট্রেড পর্যায়ের পাঠ্যক্রম প্রণয়ন,     উন্নয়ন, নিয়ন্ত্রণ, সনদপত্র প্রদান, পরিদর্শন ও মূল্যায়নের জন্য একটি সংবিধিবদ্ধ প্রতিষ্ঠান স্থাপনের প্রয়োজনীয়তা অনুভূত হয়। ফলে ১৯৬৭ সালের ৭ মার্চ  গেজেট নং ১৭৫ এল. এ. প্রকাশিত  এবং ১নং সংসদীয় আইনের বলে ইস্ট পাকিসত্মান টেকনিক্যাল এডুকেশন বোর্ড নামে একটি প্রতিষ্ঠান স্থাপিত হয়, যার বর্তমান নাম বাংলাদেশ কারিগরি শিক্ষা বোর্ড। প্রতিষ্ঠানটি বর্তমানে আগারগাও, শেরেবাংলা নগর, ঢাকায় অবস্থিত।"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employ"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/layoutId"
+        android:layout_width="match_parent"
+        android:background="#d1cfcf"
+        android:weightSum="6"
+        android:layout_height="60dp">
+
+        <Button
+            android:id="@+id/HomeBtnId"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/home"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/TheacherBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/employ"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/UserBtnId"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/user"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/NoticeBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/notic"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/JobBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/job"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/PhotosBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/photos"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#1d1b1b"
+        android:layout_height="1dp" />
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/principalImdId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/prin"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PrincipalFCI"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fafafa"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdPrincipalFCI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdPrincipalFCI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdPrincipalFCI"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/ciimgBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/cisir"
+                   />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CiFCI"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdCiFCI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdCiFCI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdCiFCI"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/csthimgId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/dcst"
+                   />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/HeadDepFCI1"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/btn3"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdHCSTFCI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdHCSTFCI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdHCSTFCI"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/dnthimgId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/csth"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/HeadDepFCI2"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/btn4"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdHDNTFCI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdHDNTFCI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdHDNTFCI"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/tcth"
+                    android:id="@+id/tcthimgId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/HeadDepFCI3"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/btn5"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/CallBtnIdHTCTFCI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/ic_call_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/emailBtnIdHTCTFCI"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_email_black_24dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/messageBtnIdHTCTFCI"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_message_black_24dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

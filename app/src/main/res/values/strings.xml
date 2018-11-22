@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">ShareInfo</string>
+    <string-array name="acc_type">
+        <item>Select one</item>
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+
+
+
+    <string name="fcidescription">Feni Computer Institute (Bengali: ফেনী কম্পিউটার ইনস্টিটিউট, also known as FCI) is the first and only ICT Based polytechnic institute for Diploma in Engineering courses in Feni Sadar Upazila, Bangladesh.[1] Founded in 2003, It is directed under Bangladesh Technical Education Board. Every year, around 300 students get accepted to their Diploma in Engineering programs to study about Information Technology. FCI is a member of Asia-Pacific Economic Cooperation (APEC).</string>
+
+    <string name="FPIDescription">In 29th February 1964, Feni Polytechnic started its journey as Feni Technical with Civil and Mechanical Engineering departments in a 15.97 Acre campus near old Dhaka-Chittagong Highway road, just 500 meters east to Feni Sadar Hospital. In 1972 with the addition of Power department, the institution finally became Feni Polytechnic Institute. Later additional departments as Electrical engineering (1978), Computer engineering (2002), Architecture and Interior design technology (2006) was added to give the institution its present form.\n
+
+    From its very first day, Feni polytechnic has been under supervision of excellent administration lead by many highlighted individuals from Technical Education field. Currently the institution is run by 60 teachers lead by the Principal, 50 third grade and 26 fourth grade government staffs. Today, Feni Polytechnic Institute operates an additional second shift to its usual operation for its 6 departments and the institution is hence filled with students all through the operating period and comes to life from morning till evening.\n
+
+        Today Feni Polytechnic has a magnificent campus consisting of a two floor administrative building, 1 three floor academic building, 3 campus accommodations for its students, auditorium, mosque and accommodations for its Principal and staffs. The pond, field, canteen and the various trees all around the campus simply is a treat for our eyes.\n
+
+        Feni Polytechnic Institute is highly regulated and monitored by the Directorate of Technical Education(DTE) under Ministry of Education(MoE) for the Governments of the people\'s republic of Bangladesh. The academic section is supervised by the Bangladesh Technical Education Board (BTEB).
+
+    </string>
+    <string name="btebdescription">দেশের কারিগরি ও বৃত্তিমূলক শিক্ষা ও প্রশিক্ষণের সংগঠন পরিচালন, তদারকি, নিয়ন্ত্রণ এবং উন্নয়নের দায়িত্ব পালন, পরীক্ষা পরিচালনা, নিয়ন্ত্রণ ও বোর্ড কর্তৃক গৃহীত পরীক্ষায় উত্তীর্ণ ব্যক্তিবর্গকে ডিপ্লোমা/ সার্টিফিকেট প্রদান।
+ ১৯৬০ সালে কারিগরি শিক্ষার উন্নয়নের জন্য কারিগরি শিক্ষা অধিদপ্তর স্থাপিত হয় এবং পূর্বে গঠিত বোর্ডকে তার আওতায় আনা হয়। কারিগরি শিক্ষা অধিদপ্তর প্রতিষ্ঠার পর ডিগ্রি, ডিপ্লোমা এবং ট্রেড পর্যায়ে কারিগরি শিক্ষার দ্রুত উন্নয়ন ও সম্প্রসারণের কাজ হাতে নেয়া হয়।
+ ক্রমবর্ধমান কর্মতৎপরতার প্রেক্ষিতে এবং ডিপ্লোমা ইন ইঞ্জিনিয়ারিং ও ট্রেড পর্যায়ের পাঠ্যক্রম প্রণয়ন,     উন্নয়ন, নিয়ন্ত্রণ, সনদপত্র প্রদান, পরিদর্শন ও মূল্যায়নের জন্য একটি সংবিধিবদ্ধ প্রতিষ্ঠান স্থাপনের প্রয়োজনীয়তা অনুভূত হয়। ফলে ১৯৬৭ সালের ৭ মার্চ  গেজেট নং ১৭৫ এল. এ. প্রকাশিত  এবং ১নং সংসদীয় আইনের বলে ইস্ট পাকিসত্মান টেকনিক্যাল এডুকেশন বোর্ড নামে একটি প্রতিষ্ঠান স্থাপিত হয়, যার বর্তমান নাম বাংলাদেশ কারিগরি শিক্ষা বোর্ড। প্রতিষ্ঠানটি বর্তমানে আগারগাও, শেরেবাংলা নগর, ঢাকায় অবস্থিত।
+    </string>
+
+    <string name="globaldes">
+        Global Brand (Pvt.) Limited (GBPL) is a giant IT distributor of Bangladesh.It is the only exclusive distributor of ASUS in Bangladesh since 1996. Global Brand Private Limited provides services and solutions that include distribution of hardware systems, networking products,notebooks,network infrastructure, gaming products, servers, printers, projectors, software,laptops and POS solution.\nWe are the distributors of 50+ brands like Asus, Dell, Lenovo, LG, Sharp, Brother, A4tech, Adata, Panda, Rapoo, Totolink, Casio, Vivitek, Philips, Micronet, Mikrotik, CP Plus, Microtek, Huntkey, Golden Field, NZXT, Autodesk, Adobe, etc .For majority of these brands, we have exclusive distributorship for Bangladesh market. We have received 100+ awards from our partners and industry. GBPL designs, develops and delivers technology solutions that enable enterprises to share, maintain, and manage information.\nThe company was formed back in 1996 with a vision is to build a beautiful tomorrow. The company offers today a broad array of services like “Project Management (Design, Development and Implement)”, “Business Process Reengineering”, “Institutional Strengthening and Transfer of Technology”, “Survey, Research and Evaluation”, “Training and Competence Development” to help businesses increase productivity. GBPL has an active customer base of over 800 including GoB, Local and International Development Agencies, Banking and non banking financial Institutes, Multinational and Local corporate bodies.
+
+    </string>
+
+    <string name="shamimabout">
+        Name: Shamim Ahmed \n
+        Computer Science and Technology,\n
+        Feni Computer Institute\n
+        Phone:01879713588\n
+        Email:shamim04091997@gmail.com
+
+    </string>
+
+
+    <string name="discription">Discription - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - -- - - - - - - - - - - - - -- - - - - - - - - - - - - -- - - - - - - - - - - - - -- - - - - - - - -</string>
+
+    <string name="PrincipalFCI">
+         Name :  Mohammed Rehan Uddin\n
+        Designation : Principal\n
+        Phone : +8801971333888\n
+        Email : rehancpi@gmail.com\n
+    </string>
+
+    <string name="CiFCI">
+        Name : Debabrata Kumar Nath\n
+        Designation : Chief Instructor\n
+        Phone : +8801553375004\n
+        Email : \n
+    </string>
+
+    <string name="HeadDepFCI1">
+        Name : Afroja Jainab\n
+        Designation : Instructor\n
+        Phone : +8801711132353\n
+        Email : \n
+    </string>
+
+    <string name="HeadDepFCI2">
+        Name : Abdullah Al Noman\n
+        Designation : Instructor\n
+        Phone : +8801818591793\n
+        Email : \n
+    </string>
+
+    <string name="HeadDepFCI3">
+        Name : Sayed Mahbub Alam\n
+        Designation : Instructor\n
+        Phone : +8801711583992\n
+        Email : \n
+    </string>
+
+
+
+    <string name="FCIUser1">
+        Name : Shamim Ahamed\n
+        Work : Student\n
+        Education : Computer Science and Technology\n
+        Home City : Maymonsingh\n
+        Current City : Feni\n
+        Birth of Date : 11 Dec 1995\n
+        Phone : 01719632657\n
+        Email :shamim@gmail.com\n
+    </string>
+
+    <string name="FCIUser2">
+        Name : Abdullah Jubayer\n
+        Work : Student\n
+        Education : Computer Science and Technology\n
+        Home City : Barisal\n
+        Current City : Feni\n
+        Birth of Date : 1 Dec 1998\n
+        Phone : 017xxxxxxxxxxx\n
+        Email :jubayer@gmail.com\n
+    </string>
+
+    <string name="FCIUser3">
+        Name : Mezba Ul Hassan\n
+        Work : Student\n
+        Education : Computer Science and Technology\n
+        Home City : Maymonsingh\n
+        Current City : Feni\n
+        Birth of Date : 11 Dec 1995\n
+        Phone : 01719632657\n
+        Email : mezbaul@gmail.com\n
+    </string>
+    <string name="FCIUser4">
+        Name : Hridoy Krisna Das\n
+        Work : Student\n
+        Education : Telecommunication Technology\n
+        Home City : Kushtia\n
+        Current City : Feni\n
+        Birth of Date : 02 Nov 2000\n
+        Phone : 01989928743\n
+        Email : hridoykrisnadas@gmail.com\n
+    </string>
+    <string name="BTEBEmploy1">
+         নাম :  ড: মো : মোস্তাফিজুর রহমান\n
+        পদবি : চেয়ারম্যান\n
+        মোবাইল : ০১৮১৯২৫৮৯৫৮\n
+        Email : chairman@bteb.gov.bd\n
+    </string>
+
+    <string name="BTEBEmploy2">
+         নাম :  	মোঃ মাহাবুবুর রহমান\n
+        পদবি : 	সচিব\n
+        মোবাইল : ০১৭১৪০৭৭০০৫\n
+        Email : secretary@bteb.gov.bd\n
+    </string>
+
+    <string name="BTEBEmploy3">
+         নাম : জনাব মোঃ আক্তারউজ্জামান\n
+        পদবি : পরিচালক (কারিকুলাম)\n
+        মোবাইল : ০১৭১৪০৭৩৭২৬\n
+        Email : director@bteb.gov.bd\n
+    </string>
+
+    <string name="BTEBEmploy4">
+         নাম : ইঞ্জিঃ মোঃ আবদুল কুদ্দুস সরদার\n
+        পদবি : পরিদর্শক\n
+        মোবাইল : ০১৭০৮৫১৮২৭০\n
+        Email : inspector.bteb@outlook.com\n
+    </string>
+
+    <string name="BTEBEmploy5">
+         নাম : ড. প্রকৌশলী সুশীল কুমার পাল\n
+        পদবি : পরীক্ষা নিয়ন্ত্রক\n
+        মোবাইল : ০১৭১৪০৭৫৮৩৮\n
+        Email : 	paulksusil@yahoo.com\n
+    </string>
+
+
+
+    <string name="FCIUser5">
+        Name : Bayejid Hasan\n
+        Work : Student\n
+        Education : Computer Science and Technology\n
+        Home City : Bogyran
+        Current City : Feni\n
+        Birth of Date : 02 Nov 2000\n
+        Phone : 01989928743\n
+        Email : bayejid@gmail.com\n
+    </string>
+
+    <string name="PrincipalFPI">
+         Name :  Mohammed Mohidur Rahman\n
+        Designation : Principal\n
+        Phone : +8801688709257\n
+        Email : \n
+    </string>
+
+    <string name="EEEFPI">
+         Name :  Md. Emdadul Islam \n
+        Designation : Chief Instructor(EEE)\n
+        Phone : +8801552496220\n
+        Email : \n
+    </string>
+
+    <string name="MTFPI">
+         Name :  Md. Abdur Rahim \n
+        Designation : Chief Instructor(Mechanical)\n
+        Phone : +8801715492741\n
+        Email : \n
+    </string>
+
+    <string name="CMTFPI">
+         Name :  Md. Meher Ali Karim \n
+        Designation : Instructor(CMT)\n
+        Phone : +8801819945267\n
+        Email : \n
+    </string>
+
+    <string name="PowerFPI">
+         Name : Sree Nayan Ranjan Bhattacharjee  \n
+        Designation : Junior Instructor(Power)\n
+        Phone : +8801712215825\n
+        Email : \n
+    </string>
+
+    <string name="RSFPI">
+         Name : Md. Nasimuzzaman  \n
+        Designation : Instructor(RS)\n
+        Phone : +8801817724986\n
+        Email : \n
+    </string>
+
+    <string name="G1">
+         Name : Md. Arif Hossain  \n
+        Designation : Chairman\n
+        Phone : +8801919757695\n
+        Email : asif@globalcomputer.com\n
+    </string>
+
+    <string name="G2">
+         Name : Md. Iqbal Hossain Bhuiyan \n
+        Designation : Manager\n
+        Phone : +8801919757678\n
+        Email : iqbal@globalcomputer.com\n
+    </string>
+
+    <string name="G3">
+         Name : Md. Rubel \n
+        Designation : Accountant\n
+        Phone : +8801828514610\n
+        Email : \n
+    </string>
+
+    <string name="G4">
+         Name : Md. Mahfuzar Rahman \n
+        Designation : Chief Technician(Laptop Recovery)\n
+        Phone : +8801919757684\n
+        Email : \n
+    </string>
+
+    <string name="G5">
+         Name : Niplu Das Rumen \n
+        Designation : Chief Technician(Desktop Recovery)\n
+        Phone : +8801919757683\n
+        Email : \n
+    </string>
+
+    <string name="G6">
+         Name : Md. Farhad \n
+        Designation : Asst. Manager\n
+        Phone : +8801919757682\n
+        Email : \n
+    </string>
+
+    <string name="globalnotice2">এ্যান্ড্রয়েড ফোনের ২০ টি গুরুত্বপূর্ণ সিকিউরিটি কোড !!
+প্রত্যেক এ্যান্ড্রয়েড ব্যবহারকারীদের জানা উচিত তাই Share
+করে আপনার সংরক্ষণে রাখুন এবং অন্যদের জানিয়ে দিন !!!
+</string>
+
+
+</resources>

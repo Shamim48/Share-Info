@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abdullahjubayer.shareinfo2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".aj_MainActivity"
+            android:label="@string/app_name"
+            >
+
+        </activity>
+        <activity android:name=".aj_UserLogin" />
+        <activity android:name=".aj_UserSignUp" />
+        <activity android:name=".aj_admin_signUp" />
+        <activity android:name=".aj_SignUpType" />
+        <activity android:name=".aj_AdminLogin" />
+        <activity android:name=".aj_AdminHomePage" />
+        <activity android:name=".aj_Set_Admin_HomePage" />
+        <activity android:name=".aj_Set_Admin_Message" />
+        <activity android:name=".aj_Set_Employee" />
+        <activity android:name=".aj_Set_Job" />
+        <activity android:name=".aj_Set_job_Result" />
+        <activity android:name=".aj_UserHomePage" />
+        <activity android:name=".aj_DisplayNotification" />
+
+        <service android:name=".aj_NotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".aj_ShowHomePage" />
+        <activity android:name=".aj_Show_employee_user" />
+        <activity android:name=".aj_show_service_to_user" />
+        <activity android:name=".aj_User_reply_TO_Admin" />
+        <activity android:name=".aj_Set_photogalarry" />
+        <activity android:name=".aj_User_Photogallery" />
+
+        <activity android:name=".aj_Splash_activity"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".NewActivity" />
+        <activity android:name=".fciHome" />
+        <activity
+            android:name=".User"
+            android:label=" User" />
+        <activity
+            android:name=".BTEBUser"
+            android:label=" User" />
+        <activity
+            android:name=".FPIUser"
+            android:label=" User" />
+        <activity
+            android:name=".GlobalUser"
+            android:label=" User" />
+
+        <activity
+            android:name=".Employ"
+            android:label=" Employ" />
+        <activity
+            android:name=".FPIEmploy"
+            android:label=" Employ" />
+        <activity
+            android:name=".BTEBEmploy"
+            android:label=" Employ" />
+        <activity
+            android:name=".GlobalEmploy"
+            android:label=" Employ" />
+
+        <activity
+            android:name=".Notification"
+            android:label=" Notification" />
+        <activity
+            android:name=".BTEBNotification"
+            android:label=" Notice" />
+        <activity
+            android:name=".FPINotification"
+            android:label=" Notice" />
+        <activity
+            android:name=".GlobalNotification"
+            android:label=" Notification" />
+
+        <activity
+            android:name=".Job"
+            android:label=" Service" />
+
+        <activity
+            android:name=".FPIJob"
+            android:label=" Service" />
+
+        <activity
+            android:name=".BTEBJob"
+            android:label=" Service" />
+
+        <activity
+            android:name=".GlobalJob"
+            android:label=" Service" />
+
+        <activity android:name=".FCIPhotos"
+            android:label=" Photos"
+            />
+        <activity android:name=".FPIPhotos"
+            android:label=" Photos"
+            />
+        <activity android:name=".BTEBPhotos"
+            android:label=" Photos"
+            />
+        <activity android:name=".GlobalPhotos"
+            android:label=" Photos"
+            />
+
+        <activity android:name=".FPIHome"
+            android:label="Home"
+            />
+        <activity android:name=".BTEBHome"
+            android:label="Home"
+            />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Setting" />
+        <activity android:name=".GCFHome"
+            android:label="Home"
+            ></activity>
+
+    </application>
+
+</manifest>

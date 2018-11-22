@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GlobalJob"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutId"
+        android:layout_width="match_parent"
+        android:background="#d1cfcf"
+        android:weightSum="6"
+        android:layout_height="60dp">
+
+        <Button
+            android:id="@+id/HomeBtnId"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/home"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/TheacherBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/employ"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/UserBtnId"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/user"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/NoticeBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/notic"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/JobBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/job"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="1dp"
+            android:background="#1d1b1b"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/PhotosBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/photos"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#1d1b1b"
+        android:layout_height="1dp" />
+
+
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:background="@drawable/bg"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/index"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/globalicon"/>
+                <TextView
+                    android:id="@+id/fci"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Global Computer Feni"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="হার্ডওয়্যার ইঞ্জিনিয়ার প্রয়োজন..."
+                    android:textSize="25sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Global Computer Feni শাখায় ৬ জন হার্ডওয়্যার ইঞ্জিনিয়ার প্রয়োজন ... "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="370dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/globarhar"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/folder"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+                <EditText android:layout_width="match_parent" android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+      android:background="@drawable/editetextbg"
+                    android:drawableRight="@drawable/send"
+                    android:hint="Reply..."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+            </LinearLayout>
+
+  <LinearLayout
+                android:layout_width="wrap_content"
+      android:background="@drawable/bg"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/index2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/globalicon"/>
+                <TextView
+                    android:id="@+id/fci2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Global Computer Feni"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ইদ  অফার"
+                    android:textSize="25sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="পবিত্র ঈদুল ফিতর উপলক্ষে ইদ অফার... "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="370dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/globalservice1"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                   android:background="@drawable/folder"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:background="@drawable/editetextbg"
+                    android:drawableRight="@drawable/send"
+                    android:hint="Reply..."/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

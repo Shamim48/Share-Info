@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+
+    <Button
+        android:id="@+id/ClearBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginBottom="105dp"
+        android:text="Clear" />
+
+    <EditText
+        android:id="@+id/MessageEditeTextId"
+        android:layout_width="209dp"
+        android:layout_height="233dp"
+        android:layout_below="@+id/TextViewnameId"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginTop="41dp"
+        android:hint="Enter Message"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/TextViewnameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Name:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/NameEditeTextId"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewnameId"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="-43dp"
+        android:hint="Enter Name"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewMSGID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TextViewnameId"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="104dp"
+        android:text="Message:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/SendBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginBottom="105dp"
+        android:text="Send" />
+</RelativeLayout>
